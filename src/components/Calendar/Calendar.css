@@ -1,0 +1,69 @@
+/* Existing styles... */
+.Calendar {
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.time {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* New styles for the event creation form */
+.new-event {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.new-event h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.new-event form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.new-event form input,
+.new-event form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-event form button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.new-event form button:hover {
+  background-color: #45a049;
+}

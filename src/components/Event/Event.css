@@ -1,0 +1,24 @@
+.Event {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    margin: 2px;
+    font-size: 0.9em;
+  }
+  
+  /* Vibrant background colors for Event components */
+  .Event.green {
+    background-color: #32cd32;  /* Lime green */
+    color: #fff;
+  }
+  
+  .Event.pink {
+    background-color: #ff6ec7;  /* Vibrant pink */
+    color: #fff;
+  }
+  
+  .Event.blue {
+    background-color: #318ce7;  /* Vibrant blue */
+    color: #fff;
+  }
